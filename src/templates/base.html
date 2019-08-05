@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Python Flask User Administration app</title>
+  </head>
+
+  <body>
+
+    <div class="container">
+      <div class="header">
+        <h3 class="text-muted">Python Flask User Administration app</h3>
+      </div>
+
+      <div class="jumbotron">
+        <h1>Add User Info App</h1>
+        <form method="POST" action=/user>
+        <label for="firstName" class="sr-only">First Name</label>
+        <input autofocus class="form-control" id="firstName" name="firstName" placeholder="First Name" required type="name">
+
+        <label for="lastName" class="sr-only">Last Name</label>
+        <input autofocus class="form-control" id="lastName" name="lastName" placeholder="Last Name" required type="name">
+
+        <label for="address" class="sr-only">Address</label>
+        <input autofocus class="form-control" id="address" name="address" placeholder="Address" required type="name">
+
+        <label for="inputEmail" class="sr-only">Email address</label>
+        <input type="email" name="inputEmail" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+
+        <label for="telenummer" class="sr-only">Telephone Nummber</label>
+        <input type="tel" name="telenummer" id="telenummer" class="form-control" placeholder="Telephone Nummber" required>
+
+        <input type="submit" name="action" value="Register" style="color: lightslategrey"/>
+      </form>
+      </div>
+      <footer class="footer">
+        <p>&copy; Jaison Company 2019</p>
+      </footer>
+
+    </div>
+  </body>
+</html>
