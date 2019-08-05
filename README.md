@@ -49,7 +49,7 @@ cd Desktop/Univention GmbH_web_app
 lets clone the project from github / you can also download it.
  
 ````
-https://github.com/dsouzajaison/web_app.git
+git clone https://github.com/dsouzajaison/web_app.git
 ````
 
 #### activate virtualenv
