@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    font-family: Calibri;
+}
+h1{
+    color: #fb2231; font-family: Calibri;
+}
+footer{
+    position: absolute;bottom: 0;left: 0;right: 0;
+    width: 100%;
+    background-color: #fb2231;
+    color: white;
+    font-family: "Calibri Light";
+}
+label {
+    font-family: "Calibri Light";
+
+}
+.button2 {
+  background-color: white;
+  padding: 14px 40px;
+  border-radius: 8px;
+  color: black;
+  border: 2px solid #fb2231;
+}
+
+.button2:hover {
+  background-color: #fb2231;
+  color: white;
+}
