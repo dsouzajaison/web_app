@@ -1,41 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+     <link rel= "stylesheet" href= "{{ url_for('static',filename='main.css') }}">
+
+    <center>
     <title>Python Flask User Administration app</title>
+    </center>
   </head>
 
   <body>
-
+  <center>
+  <div class="content"><img src="/static/univention-logo.svg" style="margin-top: 20px" width="20%"; height="20%"></div>
+    <link rel="shortcut icon" href="/static/univention-logo.ico" type="image/x-icon"/>
+  </center>
     <div class="container">
+
       <div class="header">
-        <h3 class="text-muted">Python Flask User Administration app</h3>
+        <center>
+        <h1 class="text-muted">Python Flask User Administration app</h1>
+        </center>
       </div>
 
       <div class="jumbotron">
-        <h1>Add User Info App</h1>
-        <form method="POST" action=/user>
-        <label for="firstName" class="sr-only">First Name</label>
+        <center>
+        <h3>Add User Info App</h3>
+
+        <form method="POST" action=/user style="justify-content: center">
+        <label for="firstName" class="sr-only" >First Name*</label>
         <input autofocus class="form-control" id="firstName" name="firstName" placeholder="First Name" required type="name">
-
-        <label for="lastName" class="sr-only">Last Name</label>
+          <br><br>
+        <label for="lastName" class="sr-only">Last Name*</label>
         <input autofocus class="form-control" id="lastName" name="lastName" placeholder="Last Name" required type="name">
-
-        <label for="address" class="sr-only">Address</label>
+          <br><br>
+        <label for="address" class="sr-only">Address*</label>
         <input autofocus class="form-control" id="address" name="address" placeholder="Address" required type="name">
-
-        <label for="inputEmail" class="sr-only">Email address</label>
-        <input type="email" name="inputEmail" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
-
-        <label for="telenummer" class="sr-only">Telephone Nummber</label>
-        <input type="tel" name="telenummer" id="telenummer" class="form-control" placeholder="Telephone Nummber" required>
-
-        <input type="submit" name="action" value="Register" style="color: lightslategrey"/>
+          <br><br>
+        <label for="inputEmail" class="sr-only">Email address*</label>
+        <input type="email" name="inputEmail" id="inputEmail" class="form-control" placeholder="example@univention.com" required autofocus>
+          <br><br>
+        <label for="telenummer" class="sr-only">Telephone Nummber*</label>
+        <input type="tel" pattern="[0-9]{4} [0-9]{5}" name="telenummer" id="telenummer" class="form-control" placeholder="1234 56789" required>
+          <br><br> <br>
+        <input  class="button2" type="submit" name="action" value="Register"/>
       </form>
+        </center>
       </div>
-      <footer class="footer">
-        <p>&copy; Jaison Company 2019</p>
-      </footer>
+
 
     </div>
   </body>
+<footer class="footer" style="float: bottom">
+      <div style="float: left;margin-bottom: 5px; margin-left: 30px">&copy; Jaison Company 2019</div>
+</footer>
 </html>
