@@ -1,8 +1,8 @@
-#Table of Contents 
+## Table of Contents 
 * Installation Guide for linux system.
 * Other Info
 
-###Installation Guide
+### Installation Guide
 To use the application make sure you have python3.x installed in your system.
 
 ##### Guide to install python3.x
@@ -12,7 +12,7 @@ https://realpython.com/installing-python/
 Are you set with python environment?
 Then lets create a virtual environment in oder to install the project dependencies  
 
-#####Setting Virtual Environment
+##### Setting Virtual Environment
 To set up a virtual environment, we first need to install the package virtualenv using pip.
 To do so, open up your PowerShell/Terminal and execute the following commands.
 
@@ -52,7 +52,7 @@ lets clone the project from github / you can also download it.
 #TODO
 ````
 
-####activate virtualenv
+#### activate virtualenv
 
 If you have it installed,create another virtual environment for the project.Type these in your terminal:
 ````
@@ -65,13 +65,13 @@ In windows
 ````
 venv\Scripts\activate
 ````
-#####Install Requirements
+##### Install Requirements
 Next, install the dependencies in the venv. From project folder run below command.
 ````
 pip install -r requirements.txt
 ````
 now that all the dependencies installed.Navigate to src folder.
-####Run application
+#### Run application
 ````
 cd Univention GmbH_web_app/src/
 ````
