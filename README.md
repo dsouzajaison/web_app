@@ -1,8 +1,8 @@
 ## Table of Contents 
-* Installation Guide for linux system.
-* Other Info
+* [Installation](#Installation)
+* [Project info](#Project Info)
 
-### Installation Guide
+### Installation
 To use the application make sure you have python3.x installed in your system.
 
 ##### Guide to install python3.x
@@ -80,3 +80,11 @@ Run the app with command line
 python main.py
 ```` 
 click the the localhost link to redirect to app webpage.
+
+## project Info
+
+The framework I have used in Flask since it is one of the most used framework and quite direct. The database used here is filebased system.
+TinyDb is a NOSQL database and simple for storing and retrieving data. This makes application light and no need to have a server always running.
+ofcourse it could be implemented in sqlite3 or so.
+
+PS: If any improvements are necessary or the task has not met the requirements , always open for suggestions.
