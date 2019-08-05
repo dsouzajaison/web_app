@@ -38,13 +38,13 @@ navigate to Desktop
 ```
 cd Desktop/
 ```
-create a new directory 'project_webapp'  
+create a new directory 'Univention_GmbH_web_app'  
 ````
 mkdir Deskstop/Univention GmbH_web_app
 ````
-change currenct directory to project_webapp'  
+change currenct directory to 'Univention_GmbH_web_app'
 ````
-cd Desktop/Univention GmbH_web_app 
+cd Desktop/Univention_GmbH_web_app 
 ````
 lets clone the project from github / you can also download it.
  
@@ -56,7 +56,7 @@ git clone https://github.com/dsouzajaison/web_app.git
 
 If you have it installed,create another virtual environment for the project.Type these in your terminal:
 ````
-cd project_webapp
+cd Univention_GmbH_web_app
 virtualenv venv
 venv/bin/activate
 
@@ -73,7 +73,7 @@ pip install -r requirements.txt
 now that all the dependencies installed.Navigate to src folder.
 #### Run application
 ````
-cd Univention GmbH_web_app/src/
+cd Univention_GmbH_web_app/src/
 ````
 Run the app with command line
 ````
