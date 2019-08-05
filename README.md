@@ -1,6 +1,6 @@
 ## Table of Contents 
 * [Installation](#Installation)
-* [Project info](#Project Info)
+* [Project-info](#Project-Info)
 
 ### Installation
 To use the application make sure you have python3.x installed in your system.
@@ -81,7 +81,7 @@ python main.py
 ```` 
 click the the localhost link to redirect to app webpage.
 
-## project Info
+## project-Info
 
 The framework I have used in Flask since it is one of the most used framework and quite direct. The database used here is filebased system.
 TinyDb is a NOSQL database and simple for storing and retrieving data. This makes application light and no need to have a server always running.
