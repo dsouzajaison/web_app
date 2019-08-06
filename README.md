@@ -16,14 +16,15 @@ Then lets create a virtual environment in oder to install the project dependenci
 To set up a virtual environment, we first need to install the package virtualenv using pip.
 To do so, open up your PowerShell/Terminal and execute the following commands.
 
-Upgrade pip to its latest version  
+If no pip install pip3
 ````cmd
-python -m pip install --upgrade pip
+sudo apt update
+sudo apt install python3-pip
 ````
 Install virtualenv  
 
 ````
-pip install virtualenv 
+sudo apt install virtualenv
 ````
 If your requirement falls under any of the following categories,
 
@@ -40,11 +41,11 @@ cd Desktop/
 ```
 create a new directory 'Univention_GmbH_web_app'  
 ````
-mkdir Deskstop/Univention GmbH_web_app
+mkdir Univention GmbH_web_app
 ````
 change currenct directory to 'Univention_GmbH_web_app'
 ````
-cd Desktop/Univention_GmbH_web_app 
+cd Univention_GmbH_web_app 
 ````
 lets clone the project from github / you can also download it.
  
@@ -56,7 +57,7 @@ git clone https://github.com/dsouzajaison/web_app.git
 
 If you have it installed,create another virtual environment for the project.Type these in your terminal:
 ````
-cd Univention_GmbH_web_app
+cd web_app
 virtualenv venv
 venv/bin/activate
 
@@ -73,13 +74,13 @@ pip install -r requirements.txt
 now that all the dependencies installed.Navigate to src folder.
 #### Run application
 ````
-cd Univention_GmbH_web_app/src/
+cd src/
 ````
 Run the app with command line
 ````
 python main.py
 ```` 
-click the the localhost link to redirect to app webpage.
+click the the localhost link to redirect to app webpage.or copy paste the link to browser.
 
 ## project-Info
 
