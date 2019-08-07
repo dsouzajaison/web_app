@@ -21,6 +21,8 @@ def signUp():
     print(first_name)
     last_name = request.form['lastName']
     print(last_name)
+    user_name = request.form['username']
+    print(user_name)
     _email = request.form['inputEmail']
     print(_email)
     _add = request.form['address']
@@ -28,9 +30,10 @@ def signUp():
     print(_tele)
     db.insert({'firstName': first_name,
                'lastName': last_name,
-               "inputEmail": _email,
-               "address":_add,
-               "telenummer":_tele
+               'username' :user_name,
+               'inputEmail': _email,
+               'address':_add,
+               'telenummer':_tele
                })
     return render_template('base.html')
 
